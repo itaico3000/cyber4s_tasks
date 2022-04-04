@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    color: #333;
+    background-color: #eaf3ec;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 9.6rem;
+    width: 140rem;
+    border-bottom: 1px solid #333;
+}
+
+.opening {
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    gap: 3.2rem;
+    padding-bottom: 4.8rem;
+}
+
+.heading {
+    font-size: 6.4rem;
+    margin-bottom: 4.8rem;
+}
+
+.text {
+    font-size: 2rem;
+    line-height: 1.6;
+}
+
+.opening-img {
+    width: 100%;
+}
+
+.wiki-link:link,
+.wiki-link:visited {
+    color: #113719;
+    transition: all 0.2s;
+}
+
+.wiki-link:active,
+.wiki-link:hover {
+    text-shadow: 0 0px 1px #113719;
+}
+
+.section-botany {
+    padding-bottom: 4.8rem;
+}
+
+.subheading {
+    font-size: 3.2rem;
+    margin-bottom: 4.8rem;
+}
+
+.history-content {
+    display: flex;
+    gap: 3.2rem;
+    padding-bottom: 4.8rem;
+}
+
+.history-img {
+    width: 30%;
+    height: 30%;
+}

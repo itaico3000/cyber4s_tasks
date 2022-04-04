@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+    width: 120rem;
+    margin: 0 auto;
+    margin-top: 9.6rem;
+}
+
+.heading {
+    text-align: center;
+    font-size: 6.4rem;
+    margin-bottom: 6.4rem;
+}
+
+.imgs {
+    display: flex;
+    gap: 12.8rem;
+    justify-content: center;
+}
+
+.car-img {
+    transition: all 0.3s;
+    width: 100%;
+    height: 100%;
+}
+
+.car-img:hover {
+    transform: scale(1.1);
+}
